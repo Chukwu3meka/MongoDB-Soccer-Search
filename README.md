@@ -25,7 +25,7 @@ The name Soccer Atlas was derived from MongoDB Atlas (A database that offers all
 5. Run development Server
    `npm run dev`
    Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.<br />
-6. View live demo here - [Soccer Atlas](socceratlas.vercel.app)
+6. View live demo here - [MongoDB-Soccer-Search](https://mongodb-soccer-search.vercel.app/)
 7. Make sure to exclude/create your .env.local file, this is where we'll store our enviroment variables in development, your hosting environment, will have an option to save env for production. Content of env `MONGODB_URI=mongodb+srv://<usernameForDB>:<passwordForDB>@<clusterID>.mongodb.net/<DBName>?retryWrites=true&w=majority ADMIN_KEY="I used a very long && complicated string, this is not the right way to do this and i strongly discourage it, but i had to for the purpose of learning MongDB, so we can focus on the main aspect. Also concerning brute force attack, I try to update the ADMIN_KEY frquently in my hosting enviroment."`
 8. If you're just getting started with MongoDB Atlas Search, you can go through my post ![medium](https://javascript.plainenglish.io/a-practical-example-using-mongodb-atlas-search-144ab2d4ed78)
 
